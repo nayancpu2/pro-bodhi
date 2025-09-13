@@ -1,24 +1,258 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>expand-magic-boxes</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Pricing Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="pricing-card">
+            <!-- Header -->
+            <div class="header">
+                <div class="header-top">
+                    <div class="logo">
+                        <div class="logo-circle">b</div>
+                    </div>
+                    <div class="user-info">
+                        <div class="avatar">👤</div>
+                        <div class="avatar">👤</div>
+                        <span class="user-count">7</span>
+                    </div>
+                </div>
+                <div class="header-title">
+                    <h1>YAY! It's BOGO</h1>
+                </div>
+            </div>
 
-    <meta property="og:title" content="expand-magic-boxes" />
-    <meta property="og:description" content="Lovable Generated Project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+            <!-- Pricing Options -->
+            <div class="pricing-options">
+                <!-- 1 Unit Option -->
+                <div class="pricing-option" data-option="1-unit">
+                    <div class="option-content">
+                        <div class="option-header">
+                            <div class="option-left">
+                                <input type="radio" name="pricing" value="1-unit" class="radio-input">
+                                <div class="option-info">
+                                    <div class="option-title">
+                                        <span class="unit-text">1 Unit</span>
+                                        <span class="discount-badge">50% Off</span>
+                                    </div>
+                                    <span class="standard-price">Standard Price</span>
+                                </div>
+                            </div>
+                            <div class="option-right">
+                                <div class="price">$10.00 USD</div>
+                                <div class="original-price">$20.00 USD</div>
+                            </div>
+                        </div>
+                        
+                        <div class="expanded-content">
+                            <div class="selection-grid">
+                                <div class="size-section">
+                                    <label class="section-label">Size</label>
+                                    <div class="size-options">
+                                        <div class="size-row">
+                                            <span class="item-number">#1</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="color-section">
+                                    <label class="section-label">Colour</label>
+                                    <div class="color-options">
+                                        <div class="color-row">
+                                            <div class="color-swatches">
+                                                <div class="color-swatch black"></div>
+                                                <div class="color-swatch blue"></div>
+                                            </div>
+                                            <span class="color-name">Black</span>
+                                        </div>
+                                        <select class="color-select">
+                                            <option>Colour</option>
+                                            <option>Black</option>
+                                            <option>Blue</option>
+                                            <option>Red</option>
+                                            <option>Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@lovable_dev" />
-    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
-  </head>
+                <!-- 2 Unit Option -->
+                <div class="pricing-option popular" data-option="2-unit">
+                    <div class="popular-badge">MOST POPULAR</div>
+                    <div class="option-content">
+                        <div class="option-header">
+                            <div class="option-left">
+                                <input type="radio" name="pricing" value="2-unit" class="radio-input" checked>
+                                <div class="option-info">
+                                    <div class="option-title">
+                                        <span class="unit-text">2 Unit</span>
+                                        <span class="discount-badge">20% Off</span>
+                                    </div>
+                                    <span class="standard-price">Standard Price</span>
+                                </div>
+                            </div>
+                            <div class="option-right">
+                                <div class="price">$18.00 USD</div>
+                                <div class="original-price">$24.00 USD</div>
+                            </div>
+                        </div>
+                        
+                        <div class="expanded-content">
+                            <div class="selection-grid">
+                                <div class="size-section">
+                                    <label class="section-label">Size</label>
+                                    <div class="size-options">
+                                        <div class="size-row">
+                                            <span class="item-number">#1</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                        <div class="size-row">
+                                            <span class="item-number">#2</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="color-section">
+                                    <label class="section-label">Colour</label>
+                                    <div class="color-options">
+                                        <div class="color-row">
+                                            <div class="color-swatches">
+                                                <div class="color-swatch black"></div>
+                                                <div class="color-swatch blue"></div>
+                                            </div>
+                                            <span class="color-name">Black</span>
+                                        </div>
+                                        <select class="color-select">
+                                            <option>Colour</option>
+                                            <option>Black</option>
+                                            <option>Blue</option>
+                                            <option>Red</option>
+                                            <option>Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+                <!-- 3 Unit Option -->
+                <div class="pricing-option" data-option="3-unit">
+                    <div class="option-content">
+                        <div class="option-header">
+                            <div class="option-left">
+                                <input type="radio" name="pricing" value="3-unit" class="radio-input">
+                                <div class="option-info">
+                                    <div class="option-title">
+                                        <span class="unit-text">3 Unit</span>
+                                        <span class="discount-badge">20% Off</span>
+                                    </div>
+                                    <span class="standard-price">Standard Price</span>
+                                </div>
+                            </div>
+                            <div class="option-right">
+                                <div class="price">$24.00 USD</div>
+                                <div class="original-price">$30.00 USD</div>
+                            </div>
+                        </div>
+                        
+                        <div class="expanded-content">
+                            <div class="selection-grid">
+                                <div class="size-section">
+                                    <label class="section-label">Size</label>
+                                    <div class="size-options">
+                                        <div class="size-row">
+                                            <span class="item-number">#1</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                        <div class="size-row">
+                                            <span class="item-number">#2</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                        <div class="size-row">
+                                            <span class="item-number">#3</span>
+                                            <select class="size-select">
+                                                <option>S</option>
+                                                <option>M</option>
+                                                <option>L</option>
+                                                <option>XL</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="color-section">
+                                    <label class="section-label">Colour</label>
+                                    <div class="color-options">
+                                        <div class="color-row">
+                                            <div class="color-swatches">
+                                                <div class="color-swatch black"></div>
+                                                <div class="color-swatch blue"></div>
+                                            </div>
+                                            <span class="color-name">Black</span>
+                                        </div>
+                                        <select class="color-select">
+                                            <option>Colour</option>
+                                            <option>Black</option>
+                                            <option>Blue</option>
+                                            <option>Red</option>
+                                            <option>Green</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="footer">
+                <div class="footer-info">
+                    <span class="free-delivery">Free Delivery</span>
+                    <span class="total">Total : <span id="total-price">$18.00</span> USD</span>
+                </div>
+                
+                <button class="add-to-cart-btn">+ Add to Cart</button>
+                
+                <div class="powered-by">
+                    <span>@ Powered by Pumper</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
